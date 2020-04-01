@@ -1,12 +1,12 @@
 Maximize
-    value: a + b + c
+    value: 10 a + 6 b + c + 2 d
 
 Subject To
-    a <= 10
-    b < 6
+    a + b + d = 1
 Bounds
     c = 2
-Integer
+    d = 1
+Binary
     a
     b
 

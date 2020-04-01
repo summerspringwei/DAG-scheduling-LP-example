@@ -38,8 +38,8 @@ Subject To
     t_2_2 - t_2_1 > T_2_1
 
     \ Constraints of DAG
-    t_1_2 - t_2_1 > T_1_1
-    t_2_2 - t_1_1 > T_2_1
+    t_1_2 - t_2_1 > T_2_1
+    t_2_2 - t_1_1 > T_1_1
 
     \ Start time is grater than 0
     t_1_1 >= 0
